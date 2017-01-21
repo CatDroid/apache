@@ -1,0 +1,5 @@
+
+./configure \
+--prefix=/home/apache/binwork/apr_util_1_5_4 \
+--with-apr=/home/apache/binwork/apr_1_5_2
+
