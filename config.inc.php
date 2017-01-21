@@ -27,8 +27,9 @@
 * $cfg['PmaAbsoluteUri_DisableWarning'] variable below.
 */
 
-$cfg['PmaAbsoluteUri'] = 'http://www.hohanloong.com/phpMyAdmin';
+#$cfg['PmaAbsoluteUri'] = 'http://www.hohanloong.com/phpMyAdmin/';
 
+$cfg['PmaAbsoluteUri'] = 'http://119.29.190.89/phpMyAdmin/';
 
 /**
  * Disable the default warning that is displayed on the DB Details Structure page if
@@ -267,7 +268,7 @@ $cfg['Servers'][$i]['user'] = 'weiphp3';
  *
  * @global string $cfg['Servers'][$i]['password']
  */
-$cfg['Servers'][$i]['password'] = 'weiphp.3.';
+$cfg['Servers'][$i]['password'] = '';
 
 /**
  * Session to use for 'signon' authentication method
